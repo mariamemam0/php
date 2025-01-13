@@ -3,5 +3,5 @@
 
 $x = "test";
 $$x="variable variable";
-echo $test;
+echo $test; //will print variable variable
 ?>
