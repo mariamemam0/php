@@ -1,5 +1,5 @@
 <html>
-<form action="home.php"method="get">
+<form action="home.php"method="post">
     First Name<input type="text" placeholder="First Name" name="fname" ><br>
 
     Last Name<input type="text" placeholder="Last Name" name="lname" ><br>
