@@ -1,10 +1,13 @@
 <?php
-function add($x ,$y)
+$x -=10;
+function add($y)
 {
-    $z = 20;
+    global $x;
+    $z =$x+$y;
+    echo $z;
 }
 
 
-add();
-echo $z;
+add(20);
+
 ?>
