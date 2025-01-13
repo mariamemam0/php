@@ -1,6 +1,5 @@
 <?php
 
+isset() // checks if a variable has been set
 
-define("constt",10);
-echo constt;
 ?>
