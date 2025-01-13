@@ -17,11 +17,12 @@ echo "</ul>";
     <th>Phone</th>
 </tr>
 <tr>
-    <td><?= $_POST['fname']?></td>
-    <td><?= $_POST['lname']?></td>
-    <td><?= $_POST['email']?></td>
-    <td><?= $_POST['addr']?></td>
-    <td><?= $_POST['phone']?></td>
+<?php 
+foreach($_POST as  $value){
+    echo "<td>$value</td>";
+}
+?>
+    </tr>
 
 </table>
 
