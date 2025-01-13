@@ -1,5 +1,6 @@
 <?php
 
 
-define("const",10);
+define("constt",10);
+echo constt;
 ?>
