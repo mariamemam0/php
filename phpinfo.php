@@ -1,5 +1,5 @@
 <?php
-function add()
+function add($x ,$y)
 {
     $z = 20;
 }
