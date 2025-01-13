@@ -2,7 +2,8 @@
 
 function add()
 {
-    static $x =0;
+    //use static 
+   static $x =0;
    $x++;
    echo $x."<br>";
 }
