@@ -1,6 +1,10 @@
 <?php
- //test
-$x ='hi';
-$y = "mariam";
-echo $x." ".$y;
+function add()
+{
+    $z = 20;
+}
+
+
+add();
+echo $z;
 ?>
