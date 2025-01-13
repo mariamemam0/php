@@ -1,13 +1,16 @@
 <?php
-$x -=10;
-function add($y)
+
+function add()
 {
-    global $x;
-    $z =$x+$y;
-    echo $z;
+   $x =0;
+   $x++;
+   echo $x."<br>";
 }
 
 
-add(20);
+add();
+add();
+add();
+add();
 
 ?>
