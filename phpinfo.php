@@ -1,17 +1,11 @@
 <?php
 
-function add()
-{
-    //use static 
-   static $x =0;
-   $x++;
-   echo $x."<br>";
-}
-
-
-add();
-add();
-add();
-add();
-
+$_COOKIE
+$_SESSION
+$_ENV
+$_FILES
+$_GET
+$_POST
+$_REQUEST
+$_SERVER
 ?>
