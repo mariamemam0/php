@@ -5,7 +5,9 @@
  //echo $data;
 
 
- readfile("data.txt");
+ //readfile("data.txt");
+
+ $data = file("data.txt");
 /*
 
 //open file 
