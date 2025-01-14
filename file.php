@@ -1,5 +1,7 @@
 <?php
-
+//function helps me to write in the file without opening the file 
+file_put_contents("data.txt","Amr@com,01552113161"."\n",FILE_APPEND);
+/*
 //open file 
  $file = fopen("data.txt","w");
 
@@ -20,5 +22,6 @@ $file = fopen("data.txt","r");
 while(!feof($file)){
    echo fgets(stream: $file)."<br>";
 }
+*/
 
 ?>
