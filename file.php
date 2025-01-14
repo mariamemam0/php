@@ -1,8 +1,11 @@
 <?php
 //function helps me to write in the file without opening the file 
 //file_put_contents("data.txt","Amr@com,01552113161"."\n",FILE_APPEND);
- $data = file_get_contents("data.txt");
- echo $data;
+// $data = file_get_contents("data.txt");
+ //echo $data;
+
+
+ readfile("data.txt");
 /*
 
 //open file 
