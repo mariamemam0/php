@@ -17,9 +17,8 @@ fclose($file);
 /////////////
 //to Read the data that i save
 $file = fopen("data.txt","r");
-$data = fgets(stream: $file);
-$data = fgets(stream: $file);
-$data = fgets(stream: $file);
+while(!feof($file)){
+   echo fgets(stream: $file)."<br>";
+}
 
-echo $data;
 ?>
