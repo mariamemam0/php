@@ -10,9 +10,9 @@ $data = range('a','z');
   //  echo $data[$i]."<br>";
 //}
 
-foreach($data as $value){
-    echo $value ."<br>";
-}
+//foreach($data as $value){
+//    echo $value ."<br>";
+//}
 
 
 
@@ -23,4 +23,8 @@ $array_assoc=[
     "data",
     "data2"
 ];
+
+foreach($array_assoc as $value){
+    echo $value ."<br>";
+}
 
