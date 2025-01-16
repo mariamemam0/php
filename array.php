@@ -6,8 +6,12 @@
 
 
 $data = range('a','z');
-for($i=0;$i<count($data);$i++){
-    echo $data[$i]."<br>";
+//for($i=0;$i<count($data);$i++){
+  //  echo $data[$i]."<br>";
+//}
+
+foreach($data as $value){
+    echo $value ."<br>";
 }
 
 
