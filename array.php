@@ -24,7 +24,7 @@ $array_assoc=[
     "data2"
 ];
 
-foreach($array_assoc as $value){
-    echo $value ."<br>";
+foreach($array_assoc as $key=>$value){
+    echo $key ."<br>";
 }
 
