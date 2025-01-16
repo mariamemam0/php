@@ -1,11 +1,11 @@
 <?php 
-$array = [2,4,5,6,7];
+//$array = [2,4,5,6,7];
 
-$arraydata= array(1,2,3,4,5,6);
+//$arraydata= array(1,2,3,4,5,6);
 
 
 
-$data = range(1,200);
+$data = range('a','z');
 for($i=0;$i<count($data);$i++){
     echo $data[$i]."<br>";
 }
