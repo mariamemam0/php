@@ -13,16 +13,16 @@ $data = range('a','z');
 //foreach($data as $value){
 //    echo $value ."<br>";
 //}
+$id = 2;
+$name = "mariam";
+$email = "mariam@com";
 
 
+$array_assoc = compact("id","name","email");
 
-$array_assoc=[
-    "id"=>1,
-    "name"=>"mariam",
-    "email"=>"mariam@com",
-    "data",
-    "data2"
-];
+
+//$array_assoc=[
+//];
 
 foreach($array_assoc as $key=>$value){
     echo $key ."<br>";
