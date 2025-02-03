@@ -60,6 +60,10 @@ $data = explode(",","mariam,mariam@com,mansoura");
 echo "<pre>";
 var_dump($data);
 echo "</pre>";
+
+$array = range("a","z");;
+$data = implode("-", $array);
+echo $data;
 ?>
 </table>
 
