@@ -8,7 +8,7 @@
   </head>
   <body>
 <div class="mb-3">
-<form action="home.php"method="post">
+<form action="add.php"method="get">
 <label for="fname" class="form-label">First Name</label>
 <input type="text" class="form-control" placeholder="First Name" name="fname" ><br>
 <label for="lname" class="form-label">Last Name</label>
