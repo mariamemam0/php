@@ -1,3 +1,10 @@
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Email</th>
+  </tr>
+
 <?php 
 //$array = [2,4,5,6,7];
 
@@ -5,7 +12,7 @@
 
 
 
-$data = range('a','z');
+//$data = range('a','z');
 //for($i=0;$i<count($data);$i++){
   //  echo $data[$i]."<br>";
 //}
@@ -13,18 +20,42 @@ $data = range('a','z');
 //foreach($data as $value){
 //    echo $value ."<br>";
 //}
-$id = 2;
-$name = "mariam";
-$email = "mariam@com";
+//$id = 2;
+//$name = "mariam";
+//$email = "mariam@com";
 
 
-$array_assoc = compact("id","name","email");
+//$array_assoc = compact("id","name","email");
 
 
-//$array_assoc=[
-//];
+$student_array=[
+  [
+    "id"=>1,
+    'name'=>"mariam",
+    "email"=>"mariam@com",
+  ],
+  [
+    "id"=>2,
+    'name'=>"amr",
+    "email"=>"amr@com",
+  ],
+  [
+    "id"=>3,
+    'name'=>"maram",
+    "email"=>"maram@com",
+  ]
 
-foreach($array_assoc as $key=>$value){
-    echo $key ."<br>";
-}
+];
+
+
+foreach($student_array as $student){
+  echo "<tr>";
+  foreach($student as $data){
+    echo "<td>$data</td>";
+  }
+  echo "</tr>";
+
+} 
+?>
+</table>
 
