@@ -56,6 +56,10 @@ foreach($student_array as $student){
   echo "</tr>";
 
 } 
+$data = explode(",","mariam,mariam@com,mansoura");
+echo "<pre>";
+var_dump($data);
+echo "</pre>";
 ?>
 </table>
 
