@@ -7,5 +7,6 @@
  $data = implode(",",$_GET);
 file_put_contents("data.txt","\n".$data,FILE_APPEND);
 
+header("Location:list.php");
 
 ?>
