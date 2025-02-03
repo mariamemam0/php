@@ -9,19 +9,17 @@
   <body>
 <div class="mb-3">
 <form action="add.php"method="get">
-<label for="fname" class="form-label">First Name</label>
+<label for="fname" class="form-label"> Name</label>
 <input type="text" class="form-control" placeholder="First Name" name="fname" ><br>
-<label for="lname" class="form-label">Last Name</label>
 
-<input type="text"  class="form-control" placeholder="Last Name" name="lname" ><br>
 <label for="email" class="form-label">Email</label>
 
 <input type="text"  class="form-control" placeholder="Email" name="email"><br>
 <label for="addr" class="form-label">Address</label>
 
 <input type="text" class="form-control"  placeholder="Address" name="addr"><br>
-<label for="phone" class="form-label">phone</label>
-<input type="text"  class="form-control" placeholder="phone" name="phone" ><br>
+<label for="phone" class="form-label">Password</label>
+<input type="password"  class="form-control" placeholder="pass" name="password" ><br>
 
     <input type="submit" class="form-control" value="Register">
 </form>
